@@ -7,7 +7,7 @@ The formula is to start with a simple approximation, ie 3, then add on to it the
 ie. PI approximation = 3 + sin(3)  = 3.14112 (to 5 decimal places)
 The result is accurate to within 3 decimal places, so we take 3.141 and add sin(3.141) to it.
 Each time, we increase the number of decimal places. We can comfortably double the number of decimal places on each iteration and still be accurate in the calculation.
-I tested the approximation described by writing a simple program in Python.
+I tested the above approximation by writing a simple program in Python.
 The limitation is that it tops out at 15 decimal places when running in the terminal window.
 However, this iteration could theoretically be performed ad infinitum to calculate pi.
 
